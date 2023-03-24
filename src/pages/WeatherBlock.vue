@@ -1,6 +1,6 @@
 <template>
   <div>
-    weather
+
   </div>
 </template>
 
@@ -8,9 +8,18 @@
 
 export default {
   name: 'WeatherBlock',
+  data: () => ({
+    name: '',
+  }),
+  props: {
+  },
   components: {
   },
 }
+
 </script>
 
-<style></style>
+<style lang="scss">
+
+
+</style>
